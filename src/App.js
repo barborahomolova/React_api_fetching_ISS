@@ -24,14 +24,14 @@ const App = () => {
 
   return (
     <div className="main-section">
-      <h1>Pozice Mezinárodní vesmírné stanice (ISS) </h1>
+      <h1>Aktuální poloha ISS (International Space Station) </h1>
 
       <h2>Zeměpisná šířka: {latitude}</h2>
 
       <h2>Zeměpisná délka: {longitude}</h2>
 
       <a className="link-mapy" href={urlMap} target="_blank" rel="noreferrer">
-        Zobrazit pozici ISS na mapy.cz
+        Zobrazit polohu ISS na mapy.cz
       </a>
       <ReloadButton reloadPage={getCoordinates} />
     </div>
