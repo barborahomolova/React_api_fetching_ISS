@@ -1,0 +1,14 @@
+.reload-button {
+  color: white;
+  background-color: rgb(37, 37, 74);
+  font-size: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.reload-button:hover {
+  background-color: rgb(75, 75, 124);
+}
